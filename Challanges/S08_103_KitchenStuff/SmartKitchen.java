@@ -1,4 +1,5 @@
-public class SmartKitchen {
+  
+ public class SmartKitchen {
 
     private CoffeeMaker brewMaster;
     private Refrigerator iceBox;
