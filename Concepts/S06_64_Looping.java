@@ -51,6 +51,33 @@ public class S06_64_Looping {
         }
         System.out.print(number+"_");
     }
+
+    System.out.println();
+    System.out.println("-".repeat(30));
+    //For Each loop
+    //Enhanced For Loop In Java
+
+    int minlength=25;
+    String artist[][]=new String[3][];
+    artist[0]=new String[]{"Shivam","Puskar","Binayak","Akshay"};
+    artist[1]=new String[]{"Olivia Rodrigo", "Rashmika","Kyliee Jenner","Sapna Chaudhary"};
+    artist[2]=new String[]{"Playboy Carti","Arijit Singh","Central Cee","Anuv Jain"};
+
+for(String[] count:artist){  //For Every String count in artist Array 
+    for(String name:count){  //For Every String name Count in count 
+
+    if(name.length()<minlength){
+        int spaceToAdd = minlength-name.length();
+        for(int g=1;g<spaceToAdd;g++){
+            name+=" ";
+        }
+        System.out.print(name);
+    }
+        
+    }
+    System.out.println();
+    
+}
 }
 
 }
