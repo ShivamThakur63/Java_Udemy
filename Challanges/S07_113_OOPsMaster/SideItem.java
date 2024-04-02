@@ -1,4 +1,3 @@
-package S07_113_OOPsMaster;
 
 public class SideItem {
     private String type;
