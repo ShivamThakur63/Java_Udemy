@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class Two2DArray {
     public static void main(String[] args) {
@@ -34,5 +35,7 @@ public class Two2DArray {
     }
     System.out.println();
 }
+    System.out.println("-".repeat(32));
+    System.out.println(Arrays.deepToString(nums));
 }
 }
