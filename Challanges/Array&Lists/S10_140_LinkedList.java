@@ -10,7 +10,7 @@ record Place(String name, int distance) {
     }
 }
 
-public class S09_140_LinkedList {
+public class S10_140_LinkedList {
 
     public static void main(String[] args) {
 

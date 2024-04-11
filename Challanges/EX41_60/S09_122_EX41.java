@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
  
-public class SortedArray {
+public class S09_122_EX41 {
     
     public static int[] getIntegers(int capacity) {
         

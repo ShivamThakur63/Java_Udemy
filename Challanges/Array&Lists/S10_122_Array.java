@@ -3,7 +3,7 @@
 import java.util.Arrays;
 import java.util.Random;
 
-public class S09_122_Array 
+public class S10_122_Array 
 {
     public static void main(String[] args) {
 

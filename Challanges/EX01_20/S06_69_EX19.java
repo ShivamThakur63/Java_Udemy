@@ -1,4 +1,3 @@
-package EX01_20;
 public class S06_69_EX19 {
     // write code here
 

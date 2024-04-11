@@ -1,3 +1,11 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.sourcePaths": [
+        "Concepts/BASIC Concepts",
+        "Concepts/Arraylist",
+        "Challanges/OOPS Challange/S11_152_Abstraction",
+        "Challanges/EX41_60",
+        "Challanges/Array&Lists",
+        "Challanges"
+    ]
 }

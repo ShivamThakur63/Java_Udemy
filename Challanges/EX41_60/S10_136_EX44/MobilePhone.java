@@ -1,4 +1,4 @@
-package EX41_60.S09_136_EX44;
+package S09_136_EX44;
 import java.util.ArrayList;
 
 public class MobilePhone {

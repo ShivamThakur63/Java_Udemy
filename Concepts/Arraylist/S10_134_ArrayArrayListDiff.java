@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class S09_134_ArrayArrayListDiff {
+public class S10_134_ArrayArrayListDiff {
 
     public static void main(String[] args) {
 

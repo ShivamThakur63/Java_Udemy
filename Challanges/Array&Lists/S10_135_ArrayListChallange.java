@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Scanner;
 
-public class S09_135_ArrayListChallange {
+public class S10_135_ArrayListChallange {
 
     public static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {

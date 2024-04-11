@@ -1,6 +1,6 @@
 import java.util.Scanner;
  
-public class MinimumElement {
+public class S09_126_EX42 {
     
     private static int readInteger() {
         

@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class S09_123_ArraySorting {
+public class S10_123_ArraySorting {
     public static void main(String[] args) {
         System.out.println("Enter The Size Of Array : ");
         Scanner sc = new Scanner(System.in);

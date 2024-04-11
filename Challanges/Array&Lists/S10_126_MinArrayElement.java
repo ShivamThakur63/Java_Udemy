@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class S09_126_MinArrayElement 
+public class S10_126_MinArrayElement 
 {
     public static void main(String[] args) 
     {

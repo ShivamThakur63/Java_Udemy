@@ -11,7 +11,7 @@
  // Getting a variable is easy not setter  no problem only .name()
 
 
-record Laptop(String model,int price)
+public record Laptop(String model,int price)
  {
     public Laptop() {
     this("School Laptop", 30000); 
