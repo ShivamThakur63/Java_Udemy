@@ -1,4 +1,3 @@
-package S08_108_Polymorphism;
 
 public class Car {
 
