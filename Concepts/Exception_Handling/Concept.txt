@@ -1,0 +1,67 @@
+1. What is an Exception ?
+In Java, Exception is an unwanted or unexpected event, which occurs during the execution of a program, 
+i.e. at run time, that disrupts the normal flow of the program’s instructions. 
+Exceptions can be caught and handled by the program. When an exception occurs within a method, it creates an object. 
+This object is called the exception object. It contains information about the exception, such as the name and description of the exception 
+and the state of the program when the exception occurred.
+
+# Cheacked and Uncheaked Exception :
+Checked Exceptions: Checked exceptions are called compile-time exceptions because these exceptions 
+are checked at compile-time by the compiler.
+ 
+Unchecked Exceptions: The unchecked exceptions are just opposite to the checked exceptions.
+The compiler will not check these exceptions at compile time. In simple words, if a program throws an unchecked exception,
+and even if we didn’t handle or declare it, the program would not give a compilation error.
+
+Types Of Error :
+a) Compile Type Error
+    Example :
+    for (int i : arr) 
+    {
+        System.out.Print(i + " ");
+    }
+    
+b) Run Time Error
+c) Logical Error
+
+Difference Between Error and Exception :
+1) Exception: Think of an exception as a problem that might happen in your code, 
+like trying to read a file that doesn't exist or dividing by zero. 
+It's something your code can foresee and handle gracefully using try-catch blocks.
+
+2) Error: An error is like a bigger issue that your program might not be able to handle on its own.
+It could be due to something outside your program's control, like running out of memory or a hardware problem. 
+Errors are usually more serious and can cause your program to crash or malfunction without warning.
+
+Major reasons why an exception Occurs
+a. Invalid user input
+b. Device failure
+c. Loss of network connection
+d. Physical limitations (out-of-disk memory)
+e. Code errors
+f. Opening an unavailable file
+
+Different Type Of Exceptions : 
+1) NullPointerException (NPE): This occurs when you try to access an object or call a method on a null reference. 
+     It's one of the most common exceptions in Java.
+2) ArrayIndexOutOfBoundsException: This is thrown when you try to access an element of an array at an invalid index, 
+     such as a negative index or an index beyond the array's length.
+3) ArithmeticException: This occurs when an arithmetic operation is attempted but is not valid, such as division by zero.
+4) FileNotFoundException: Thrown when attempting to access a file that does not exist or cannot be found.
+5) IOException: This is a general exception for input/output errors, such as failing to read from or write to a file, 
+     or encountering network communication problems.
+6) NumberFormatException: Thrown when attempting to convert a string to a numeric type, but the string does not have the appropriate format.
+7) IllegalArgumentException: This is thrown when a method is passed an illegal or inappropriate argument.
+8) Exception(GodFather):  Manages All Exception in Program Regardless of Types.
+
+Note : General Syntax of try - catch to handle exception:
+try {
+    // code that may throw an exception
+} catch (ExceptionType1 e1) {
+    // code to handle the exception of type ExceptionType1
+} catch (ExceptionType2 e2) {
+    // code to handle the exception of type ExceptionType2
+} finally {
+    // optional block of code that is executed regardless of whether an exception was thrown or not
+}
+
