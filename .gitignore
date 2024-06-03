@@ -11,6 +11,11 @@
 # BlueJ files
 *.ctxt
 
+# IntelliJ & VScode File 
+.idea/
+.vscode/
+
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 

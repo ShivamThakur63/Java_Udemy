@@ -4,7 +4,6 @@
 record BaseballPlayer(String name, String position){}
 
 
-
 public class Main {
     
 
