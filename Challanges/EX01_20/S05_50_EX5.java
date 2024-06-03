@@ -1,4 +1,7 @@
+package EX01_20;
+
 public class S05_50_EX5 {
+
     // write code here
     public static boolean isLeapYear(int year){
         if(year>=1 && year<=9999){

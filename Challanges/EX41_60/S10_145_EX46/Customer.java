@@ -1,4 +1,5 @@
-package Challanges.EX41_60.S09_145_EX46;
+package S10_145_EX46;
+
 import java.util.ArrayList;
 
 public class Customer {

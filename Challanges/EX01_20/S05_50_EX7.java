@@ -1,3 +1,5 @@
+package EX01_20;
+
 public class S05_50_EX7 {
     
     public static boolean hasEqualSum(int Number1,int Number2,int Number3){

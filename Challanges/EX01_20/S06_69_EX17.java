@@ -1,3 +1,5 @@
+package EX01_20;
+
 public class S06_69_EX17 {
         // write code here
         public static int sumFirstAndLastDigit(int number){

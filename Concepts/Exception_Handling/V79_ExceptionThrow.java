@@ -1,3 +1,4 @@
+package Concepts.Exception_Handling;
 
 public class V79_ExceptionThrow {
 

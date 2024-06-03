@@ -39,7 +39,9 @@ public class S07_96_TextFormatting {
             // 0 : numeric values are zero-padded
             // , : comma grouping separator if numbers > 1000
             
-            //System.out.printf("You have this much money %,f",myDouble);
+            //System.out.printf("You have this much money %,f",myDouble);     -->1,000.00
+            //System.out.printf("You have this much money %020f",myDouble);   -->000000001000.00
+            //System.out.printf("You have this much money %+f",myDouble);   --> +(number)
         }
     }
     

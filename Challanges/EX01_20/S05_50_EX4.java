@@ -1,3 +1,5 @@
+package EX01_20;
+
 public class S05_50_EX4 {
         // write code here
         public static boolean shouldWakeUp(boolean barking,int hourOfDay){

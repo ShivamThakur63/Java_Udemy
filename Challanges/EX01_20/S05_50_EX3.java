@@ -1,3 +1,5 @@
+package EX01_20;
+
 public class S05_50_EX3 {
     public static void main(String[] args) {
         printMegaBytesAndKiloBytes(2500);

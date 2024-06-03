@@ -1,3 +1,5 @@
+package EX01_20;
+
 public class S05_50_EX6 {
 
         public static boolean areEqualByThreeDecimalPlaces(double Number1,double Number2 ){

@@ -1,3 +1,5 @@
+package Concepts.LinkedList;
+
 /* TL;DR 
 small data set:LinkedList=BAD 
 large data set+lots of searching:LinkedList=BAD 

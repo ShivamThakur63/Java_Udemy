@@ -1,3 +1,6 @@
+package EX01_20;
+
+
 import java.util.Scanner;
 public class S05_50_EX1 {
     // write code here

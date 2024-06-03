@@ -1,3 +1,4 @@
+package S10_146_Enum;
 import java.util.Random;
 
 public class Main {

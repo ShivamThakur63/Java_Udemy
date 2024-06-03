@@ -1,3 +1,5 @@
+package EX01_20;
+
 public class S06_69_EX20 {
 
      public static boolean isValid(int number){

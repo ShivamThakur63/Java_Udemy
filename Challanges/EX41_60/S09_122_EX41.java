@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 import java.util.Arrays;
  
@@ -11,6 +12,7 @@ public class S09_122_EX41 {
         for (int i=0; i<array.length; i++) {
             array[i] = scanner.nextInt();
         }
+        scanner.close();
         return array;
     }
  

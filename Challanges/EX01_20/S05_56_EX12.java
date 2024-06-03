@@ -1,3 +1,5 @@
+package EX01_20;
+
 public class S05_56_EX12 {
     // write code here
     public static boolean isCatPlaying(boolean summer ,int temperature){

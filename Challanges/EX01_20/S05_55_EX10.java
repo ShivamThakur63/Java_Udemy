@@ -1,3 +1,6 @@
+package EX01_20;
+
+
 public class S05_55_EX10 {
     // write code here
     public static void printYearsAndDays(long minutes){

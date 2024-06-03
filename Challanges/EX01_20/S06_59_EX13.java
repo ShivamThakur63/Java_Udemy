@@ -1,3 +1,5 @@
+package EX01_20;
+
 public class S06_59_EX13 {
         // write code here
         public static void printNumberInWord(int number){

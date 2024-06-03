@@ -1,3 +1,5 @@
+package EX01_20;
+
 public class S06_60_EX14 {
     // write code here
     public static boolean isLeapYear(int year){

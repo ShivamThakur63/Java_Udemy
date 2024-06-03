@@ -7,6 +7,7 @@ public class S09_126_EX42 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter count: ");
         int count = scanner.nextInt();
+        scanner.close();
         return count;
     }
     
@@ -19,7 +20,9 @@ public class S09_126_EX42 {
             int number = scanner.nextInt();
             array[i] = number;
         }
+        scanner.close();
         return array;
+        
     }
     
     private static int findMin(int[] array) {

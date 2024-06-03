@@ -1,3 +1,5 @@
+package Concepts.LinkedList;
+
 /*
 Stack:  A stack is a data structure that follows the Last In, First Out (LIFO) principle, 
         meaning that the last element added to the stack is the first one to be removed. 

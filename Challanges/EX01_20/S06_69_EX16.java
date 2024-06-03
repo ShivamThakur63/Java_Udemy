@@ -1,3 +1,5 @@
+package EX01_20;
+
 public class S06_69_EX16 {
     // write code here
     public static boolean isPalindrome(int number){

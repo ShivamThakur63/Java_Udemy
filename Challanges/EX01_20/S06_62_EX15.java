@@ -1,3 +1,5 @@
+package EX01_20;
+
 public class S06_62_EX15 {
     // write code here
     public static boolean isOdd(int number){

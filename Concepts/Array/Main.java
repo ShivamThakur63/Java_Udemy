@@ -1,3 +1,6 @@
+
+package Concepts.Array;
+
 public class Main {
     public static void main(String[] args) {
         Student s1=new Student("张三",18,"北京");

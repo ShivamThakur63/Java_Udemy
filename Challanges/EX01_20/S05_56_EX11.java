@@ -1,3 +1,5 @@
+package EX01_20;
+
 public class S05_56_EX11 {
         public static void printEqual(int x,int y,int z){
         // write code here

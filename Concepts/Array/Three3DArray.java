@@ -1,4 +1,6 @@
 
+package Concepts.Array;
+
 /*
 
 Three-Dimensional Array in C
