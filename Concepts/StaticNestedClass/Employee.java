@@ -1,7 +1,6 @@
 package Concepts.StaticNestedClass;
 
 
-
 public class Employee
 {
 

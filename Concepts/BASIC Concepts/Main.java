@@ -1,7 +1,11 @@
+
+
+import java.util.Calendar;
+
 public class S07_96_TextFormatting {
     // So There Are Many Ways To Print A Sring The Previously used concating method
     // And Now Text Formatting Method
-
+}
 
     public class Main {
 
@@ -94,4 +98,73 @@ public class S07_96_TextFormatting {
         
     }
 
+
+
+public void concept()
+{
+    System.out.printf("%d",10);        // 10 
+    System.out.printf("%f",10.1);        // 10.100000
+    System.out.printf("%c",'a');        // a
+    System.out.printf("%C",'a');        // A
+    System.out.printf("%s","hello");        // hello
+    System.out.printf("%S","hello");        // Hello
+    System.out.printf("%b",5<4);        // false
+    System.out.printf("%B",5<4);        // FALSE
+    // System.out.printf("%b", null);        // false
+    System.out.printf("%b", "cow");        // true
+    System.out.printf("%e", "10.123");        // 1.012300e+01
+    System.out.printf("%E", "10.123");        // 1.012300E+01
+    System.out.printf("%g", "10000.0");        // 10000.0
+    System.out.printf("%G", "10000.0");        // 10000E + 06
+    System.out.printf("%o", "10");        //  12(Octet)
+    System.out.printf("%x", "10");        //  a(HexDecimal)
+    System.out.printf("%X", "10");        //  A(HexDecimal)
+    System.out.printf("%h", "hello");        //  5e918d2(HashCode)
+    System.out.printf("%H", "hello");        //  5e918D2(HashCode)
+    System.out.printf("%a", 10.12);        //  0X1.4d70a3d70a3dp3(Hexadecimal Floating point value)
+    System.out.printf("%A", 10.12);        //  0X1.4D70A3D70A3DP3
+
+    Calendar cal = Calendar.getInstance();
+    System.out.printf("%tB",cal);       //October
+    System.out.printf("%TB",cal);       //OCTOBER
+    System.out.printf("%n");       //New Line
+    System.out.printf("\n");       //New Line
+    System.out.printf("%%");       //   %
+
+
+
+    // Precision in Text Formatting
+
+    double number = 10.1234;
+    System.out.printf("%d",number);    //   10.123400  By Default double take 6 places
+
+
+    double num = 12.34111423;
+    System.out.printf("%.0f%n",num);       //12
+    System.out.printf("%.1f%n",num);       //12.3
+    System.out.printf("%.2f%n",num);       //12.34
+    System.out.printf("%.3f%n",num);       //12.341
+    System.out.printf("%.4f%n",num);       //12.3411
+    System.out.printf("%.5f%n",num);       //12.34111
+    System.out.printf("%.6f%n",num);       //12.341114
+    System.out.printf("%.7f%n",num);       //12.3411142
+    System.out.printf("%.8f%n",num);       //12.34111423
+    System.out.printf("%.9f%n",num);       //12.341114320
+
+
+
+    
+    /*
+    Can also use it with 
+     * - String 
+     * - Boolean 
+     * - HexaDecimal
+     
+     Cannot use it with 
+     * - Decimal or Integer Value
+     * - Character 
+     * - End of Line 
+     */
+
+     
 }
