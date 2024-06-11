@@ -24,6 +24,47 @@ package Concepts.JavaInnerClasses.Non_Static_Classes;
 
 
 
+public class NestedInteface 
+{
+
+    public static void main(String[] args) {
+
+
+    Rapper rapper = new Artist();
+    rapper.freestyle();
+    rapper.rap();
+    rapper.perform();
+
+
+    // Lyricist Rapper
+    Rapper.Lyricist lyricist = new LyricistRapper();
+    lyricist.writeLyrics();
+    lyricist.constructBars();
+
+   // GhostWriter Rapper
+   Rapper.GhostWriter ghostWriter = new GhostWriter();
+   ghostWriter.developFlow();
+   ghostWriter.deliverDissLines();
+
+    System.out.println();
+
+   American_President.FreeinSlaves abrahamLincon = new AbrahamLincon();
+   abrahamLincon.freeSlave();
+
+   Drivable.Car car = new Drivable.Car();
+   car.drive();
+
+
+
+}
+
+}
+
+
+
+
+
+
  interface Rapper
  {
     abstract void rap();
@@ -105,44 +146,6 @@ package Concepts.JavaInnerClasses.Non_Static_Classes;
 
     
  }
-public class NestedInteface 
-{
-
-    public static void main(String[] args) {
-
-
-    Rapper rapper = new Artist();
-    rapper.freestyle();
-    rapper.rap();
-    rapper.perform();
-
-
-    // Lyricist Rapper
-    Rapper.Lyricist lyricist = new LyricistRapper();
-    lyricist.writeLyrics();
-    lyricist.constructBars();
-
-   // GhostWriter Rapper
-   Rapper.GhostWriter ghostWriter = new GhostWriter();
-   ghostWriter.developFlow();
-   ghostWriter.deliverDissLines();
-
-    System.out.println();
-
-   American_President.FreeinSlaves abrahamLincon = new AbrahamLincon();
-   abrahamLincon.freeSlave();
-
-   Drivable.Car car = new Drivable.Car();
-   car.drive();
-
-
-
-}
-
-}
-
-
-
 class American_President 
 {
 

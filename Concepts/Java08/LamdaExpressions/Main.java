@@ -1,7 +1,6 @@
 package Concepts.Java08.LamdaExpressions;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+
 
 /*
     Question : Whats a lamda expression ?
@@ -81,19 +80,6 @@ import java.util.Arrays;
 
 
 
-
- /*
-    Funtional Interface 
-    Defn : Interface having exactly having one abstract method but can have as many default and static method.
-           We can invoke lambda expression by using functional interface.
-
-    @FunctionalInterface
-    What is the advantages of this annotation ?
-        1) It restricts the interfacebto be functional interface 
-        2) So if people have already used some lambda expression and some new 
-        team menber added another abstract method in the interface 
-        all lambda expressions will have errors.
-  */
 
 
 @FunctionalInterface
