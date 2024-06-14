@@ -1,4 +1,4 @@
-package EX21_40.S08_111_EX40;
+package Challenges.EX21_40.S08_111_EX40;
 
 public class Car {
     @SuppressWarnings("unused")

@@ -1,5 +1,6 @@
 package Concepts.Java08.Optionals;
 
+import java.util.Optional;
 
 public class Cat 
 {
@@ -22,6 +23,14 @@ public class Cat
     }
 
 
+    public Optional<String> getOptionalName()
+    {
+        return Optional.ofNullable(getName());
+    }
+
+    public String getName() {
+        return name;
+    }
    
 
    

@@ -1,3 +1,5 @@
+package Challenges.EX41_60;
+
 
 import java.util.Scanner;
 import java.util.Arrays;

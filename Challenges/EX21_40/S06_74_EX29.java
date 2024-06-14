@@ -1,4 +1,4 @@
-package EX21_40;
+package Challenges.EX21_40;
 public class S06_74_EX29 {
         
         public static int getBucketCount(double width,double height,double areaPerBucket,int extraBuckets){

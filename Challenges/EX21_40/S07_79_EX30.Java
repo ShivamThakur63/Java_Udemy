@@ -1,3 +1,4 @@
+package Challenges.EX21_40;
 public class S07_79_EX30 {
     // write code here
     private double firstNumber;

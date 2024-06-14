@@ -1,4 +1,4 @@
-package EX21_40.S07_103_EX38;
+package Challenges.EX21_40.S07_103_EX38;
 
 public class Lamp {
     // write code here

@@ -1,4 +1,4 @@
-package OOPS_Challange.S08_107_Polymorphism;
+package Challenges.OOPS_Challange.S08_107_Polymorphism;
 import java.util.Scanner;
 
 public class Main {

@@ -1,4 +1,4 @@
-package S10_141_EX45;
+package Challenges.EX41_60.S10_141_EX45;
 
 public class Song {
     private String title;

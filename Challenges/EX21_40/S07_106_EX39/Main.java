@@ -1,4 +1,4 @@
-package EX21_40.S07_106_EX39;
+package Challenges.EX21_40.S07_106_EX39;
 
 public class Main {
     public static void main(String[] args) {

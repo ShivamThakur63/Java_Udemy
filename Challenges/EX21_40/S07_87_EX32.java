@@ -1,4 +1,4 @@
-package EX21_40;
+package Challenges.EX21_40;
 public class S07_87_EX32 {
     // write code here
     private double width;

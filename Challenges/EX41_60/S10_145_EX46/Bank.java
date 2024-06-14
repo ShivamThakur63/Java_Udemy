@@ -1,4 +1,4 @@
-package S10_145_EX46;
+package Challenges.EX41_60.S10_145_EX46;
 
 import java.util.ArrayList;
  

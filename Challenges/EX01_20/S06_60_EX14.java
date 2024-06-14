@@ -1,4 +1,4 @@
-package EX01_20;
+package Challenges.EX01_20;
 
 public class S06_60_EX14 {
     // write code here

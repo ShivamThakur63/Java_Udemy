@@ -1,4 +1,4 @@
-package OOPS_Challange.S08_103_KitchenStuff;
+package Challenges.OOPS_Challange.S08_103_KitchenStuff;
 
   
  public class SmartKitchen {

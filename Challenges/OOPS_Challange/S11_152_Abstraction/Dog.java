@@ -1,4 +1,4 @@
-package OOPS_Challange.S11_152_Abstraction;
+package Challenges.OOPS_Challange.S11_152_Abstraction;
 
 public class Dog extends Mammal {
 

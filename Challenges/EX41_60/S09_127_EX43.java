@@ -1,3 +1,5 @@
+package Challenges.EX41_60;
+
 import java.util.Arrays;
 
 public class S09_127_EX43 {

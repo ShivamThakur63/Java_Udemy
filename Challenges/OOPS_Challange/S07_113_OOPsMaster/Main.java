@@ -1,4 +1,4 @@
-package OOPS_Challange.S07_113_OOPsMaster;
+package Challenges.OOPS_Challange.S07_113_OOPsMaster;
 
 public class Main {
     

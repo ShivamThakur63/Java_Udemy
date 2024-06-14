@@ -1,5 +1,4 @@
-package EX01_20;
-
+package Challenges.EX01_20;
 public class S05_50_EX8 {
     
         public static boolean hasTeen(int Age1,int Age2,int Age3){

@@ -5,8 +5,17 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
-// Youtube Link  :   https://www.youtube.com/watch?v=vKVzRbsMnTQ
+// Youtube Link    : https://www.youtube.com/watch?v=vKVzRbsMnTQ
 // Youtube Channel : Coding with John
+// Documentation   : https://www.baeldung.com/java-optional
+
+/*
+ * Remaining 
+ * Grouping 
+ * Collectors.counting()
+ * or
+ * 
+ */
 
 /*
  * Optional is just like a box either it contains a cat or it does not contain anything and returns the empty box.
@@ -92,6 +101,7 @@ public class Opt_CodeWithJohn {
 
         Optional<Cat> nullOptionCat = findCatByNameNULL("Shivam");
         System.out.println(nullOptionCat);
+        System.out.println("--".repeat(20));
         Cat nullCat = nullOptionCat.orElse(new Cat("Sofia", 4));
         System.out.println(nullCat);
 
@@ -144,29 +154,72 @@ public class Opt_CodeWithJohn {
         getFavCatWithParm(null);
         getFavCatWithParm(cat4);
 
-
-
         // map()
 
         List<String> companyNames = Arrays.asList(
-            "paypal", "oracle", "", "microsoft", "", "apple");
-          Optional<List<String>> listOptional = Optional.of(companyNames);
-      
-          int size = listOptional
-            .map(List::size)
-            .orElse(0);
+                "paypal", "oracle", "", "microsoft", "", "apple");
+        Optional<List<String>> listOptional = Optional.of(companyNames);
+
+        int size = listOptional
+                .map(List::size)
+                .orElse(0);
 
         System.out.println(size);
 
         ArrayList<String> string = null;
 
-        // int sizeOfStringList = Optional.of(string).map(ArrayList::size).orElse(0);      // Throws Exception
-        int sizeOfStringList = Optional.ofNullable(string).map(ArrayList::size).orElse(0);      // Throws Exception
+        // int sizeOfStringList = Optional.of(string).map(ArrayList::size).orElse(0); //
+        // Throws Exception
+        int sizeOfStringList = Optional.ofNullable(string).map(ArrayList::size).orElse(0); // Throws Exception
         System.out.println(sizeOfStringList);
 
-        // try to  use map before filter like in case of password use trim before filtering
+        // try to use map before filter like in case of password use trim before
+        // filtering
+
+
+
+
+
+            // FlatMap V map
+    /*
+     * Just like the map() method, we also have the flatMap() method as an
+     * alternative for transforming values. The difference is that map transforms
+     * values only when they are unwrapped whereas flatMap takes a wrapped value and
+     * unwraps it before transforming it.
+     */
+
+    //  Optional in list Cases 
+        List <String> companies = Arrays.asList("google","microsoft","paypal");
+        // List<Cat> catArray = new ArrayList<>(List.of(null,new Cat("Meo", 1))) ;  // throws null pointer exception even if the list is not null rather than the element inside that list is null.
+        System.out.println(companies);
+
+        // Optional<List<Cat>> catArray = Optional.ofNullable(new ArrayList<>(List.of(null,new Cat("Meo", 1)))) ;   // Throws Error 
+        List<Cat> catArray = new ArrayList<>(List.of(new Cat("Freddy", 2) , new Cat("Baddie", 2)));
+        Optional<List<Cat>> catArrayList = Optional.ofNullable(catArray);
+        int catArrayLength = catArrayList.map(List::size).orElse(0) ;
+        System.out.println("Array Length : " + catArrayLength);
+
+
+        // Map with filter 
+
+        Optional<String> myFavTechCom = Optional.ofNullable("  Google  ");
+
+        boolean isMyFav = myFavTechCom.map(String::trim).map(String :: toLowerCase).filter(name -> name.equals("google")).isPresent();
+        System.out.println("Is My Favourite : "+isMyFav);
+
+        Cat nullcat = new Cat(null, 1);
+        Cat catwithNullName  = new Cat(null, 1);
+
+       Optional<Optional<String> > nullcatName = Optional.ofNullable(nullcat.getOptionalName());
+       Optional<Optional<String> > cat2Name = Optional.ofNullable(cat2.getOptionalName());
+       Optional<String> cat3Name = Optional.ofNullable(catwithNullName.getName());
+       System.out.println(nullcatName);
+       System.out.println(cat2Name);
+       System.out.println(cat3Name);
+
 
     }
+
 
     private static Optional<Cat> findCatByNameOPT(String name) {
         Cat cat = new Cat("Furry", 10);
@@ -175,6 +228,7 @@ public class Opt_CodeWithJohn {
 
     private static Optional<Cat> findCatByNameNULL(String name) {
         Cat cat = new Cat("Furry", 10);
+        cat.getId();
         return Optional.ofNullable(null);
     }
 

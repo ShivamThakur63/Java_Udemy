@@ -1,4 +1,4 @@
-package EX21_40.S07_99_EX36;
+package Challenges.EX21_40.S07_99_EX36;
 
 public class Cylinder extends Circle{
     private double height;

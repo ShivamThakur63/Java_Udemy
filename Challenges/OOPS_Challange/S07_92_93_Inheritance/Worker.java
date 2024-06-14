@@ -1,4 +1,4 @@
-package OOPS_Challange.S07_92_93_Inheritance;
+package Challenges.OOPS_Challange.S07_92_93_Inheritance;
 
 public class Worker {
 

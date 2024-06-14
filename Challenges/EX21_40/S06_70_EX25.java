@@ -1,4 +1,4 @@
-package EX21_40;
+package Challenges.EX21_40;
 public class S06_70_EX25 {
 
     //This is a Standard Process And More Good Approach To Follow Rather Than The Below One 

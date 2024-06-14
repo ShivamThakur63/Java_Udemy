@@ -1,4 +1,4 @@
-package S10_136_EX44;
+package Challenges.EX41_60.S10_136_EX44;
 
 public class Contact {
     // write code here
