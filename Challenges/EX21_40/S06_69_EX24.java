@@ -1,4 +1,4 @@
-package EX21_40;
+package Challenges.EX21_40;
 public class S06_69_EX24 {
      
      public static void numberToWords(int number){
