@@ -9,6 +9,8 @@ import java.util.HashSet;
  * i.e because the set makes out the hash of all the all the element within the list internally 
  * and the unique hash is put in the set rather than the actual value and it refers to the actual value  
  * and will check if the hashvalue of any element matches to another it doesnot add element to the list 
+ * 
+ *  We can store at most one null value in Set.
  */
 
 public class LearnHashSet 

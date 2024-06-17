@@ -1,6 +1,6 @@
 package Concepts.CollectionFrameWork.Queue;
 
-public class Student 
+public class Student implements Comparable<Student> 
 {
     int rollNo ;
     String name ;
@@ -38,6 +38,11 @@ public class Student
     @Override
     public String toString() {
         return "Student [rollNo=" + rollNo + ", name=" + name + "]";
+    }
+
+    @Override
+    public int compareTo(Student o) {
+        return rollNo - o.rollNo;
     }
 
 

@@ -1,4 +1,4 @@
-package Concepts.CollectionFrameWork.Queue;
+package Concepts.CollectionFrameWork;
 
 public class Employee implements Comparable<Employee>
 {
@@ -10,15 +10,19 @@ public class Employee implements Comparable<Employee>
         this.id = id;
     }
 
-    @Override
-    public int compareTo(Employee o) {
-        return id - o.id;
+
+    public int compareTo(Employee o)
+    {
+        return o.id-id;
     }
+
 
     @Override
     public String toString() {
         return "Employee [name=" + name + ", id=" + id + "]";
     }
     
+    
+   
     
 }
